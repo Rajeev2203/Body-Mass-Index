@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+.container{
+    background-image: url(photo-1520916784675-1b97f1fc1c05.jpg);
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box{
+    height: 70%;
+    width: 30%;
+    border: none;
+    border-radius: 1rem;
+    background-image: url(photo-1520916784675-1b97f1fc1c05.jpg);
+    background-size: cover;
+    padding-top: 15px;
+    box-shadow: 3px 3px 10px black;
+}
+
+h1{
+    color: #3587ba;
+    font-size: 2.5rem;
+}
+
+h1 span{
+    color:#cd8a46;
+}
+
+p{
+    padding: 10px 20px;
+}
+
+.smbox{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+label{
+    font-size: 1.25rem;
+}
+
+#height{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #4f7df9;
+    background-color: transparent;
+    width: 60%;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+#weight{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #4f7df9;
+    background-color: transparent;
+    width: 60%;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    padding-left: 15px;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color:#dc934b ;
+    padding: 8px 20px;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+h3{
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+h3 span{
+    color:#FFF3C7;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+h4 span{
+    color: #FFF3C7;
+}
+
+.info{
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+}
+
+.info p{
+    font-size: 1.4rem;
+    font-weight:700 ;
+    text-align: left;
+    line-height: 50px;
+    color:#372d31;
+}
